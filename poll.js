@@ -3,9 +3,9 @@
   var intervalId = null
   var terminator = null
 
-  $.poll = function (url, terminator_callback) {
-    terminator = terminator_callback
-    intervalId = setInterval(poller, 2000, url);
+  $.poll = function (url, interval_milliseconds, terminator_callback) {
+    terminator = terminator_callback;
+    intervalId = setInterval(poller, interval_milliseconds, url);
     return this;
   };
 
@@ -25,4 +25,4 @@
     }
   };
 
-})(jQuery);
+})(jQuery)
