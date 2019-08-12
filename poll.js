@@ -4,11 +4,11 @@
   var url = null
   var interval = null
 
-  $.poll = function (url_to_poll, interval_milliseconds, terminator_callback) {
-    url = url_to_poll;
-    interval = interval_milliseconds;
-    terminator = terminator_callback;
-    intervalId = setInterval(poller, interval_milliseconds, url);
+  $.poll = function (urlToPoll, intervalInMilliseconds, terminatorCallback) {
+    url = urlToPoll;
+    interval = intervalInMilliseconds;
+    terminator = terminatorCallback;
+    intervalId = setInterval(poller, intervalInMilliseconds, url);
     return this;
   };
 

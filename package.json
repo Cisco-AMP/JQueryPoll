@@ -1,10 +1,10 @@
 {
   "name": "jquerypoll",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A poller for calling an AJAX endpoint until a user-defined condition is met",
   "main": "poll.js",
   "scripts": {
-    "test": "open spec/jasmine-standalone-3/SpecRunner.html"
+    "test": "node_modules/karma/bin/karma start --single-run"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/smsohan/JQueryPoll/issues"
   },
-  "homepage": "https://github.com/smsohan/JQueryPoll#readme"
+  "homepage": "https://github.com/smsohan/JQueryPoll#readme",
+  "devDependencies": {
+    "karma": "4.2.0",
+    "karma-chrome-launcher": "3.0.0",      
+    "karma-jasmine": "2.0.1"
+  }
 }

@@ -10,7 +10,7 @@ url: Points to the GET endpoint from where to poll
 interval_in_milliseconds: Interval between calls to the url
 terminator_callback: A callback function that returns true to indicate end of polling
 */
-$.poll(url, interval_in_milliseconds, terminator_callback)
+$.poll(urlToPoll, intervalInMilliseconds, terminatorCallback)
 ```
 
 ```JavaScript
