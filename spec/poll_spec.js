@@ -31,7 +31,7 @@ describe("poll", function () {
         jQuery.poll('http://my/url', 100, (xhr, status, data) => {
             numCalls += 1;
             if(data.hello === 'world'){
-              expect(numCalls).toBe(2)
+              expect(numCalls).toBe(2);
               done();
               return true;
             }

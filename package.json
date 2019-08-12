@@ -1,0 +1,27 @@
+{
+  "name": "jquerypoll",
+  "version": "1.0.2",
+  "description": "A poller for calling an AJAX endpoint until a user-defined condition is met",
+  "main": "poll.js",
+  "scripts": {
+    "test": "open spec/jasmine-standalone-3/SpecRunner.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smsohan/JQueryPoll.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "files": [
+    "README.md",
+    "poll.js"
+  ],
+  "author": "S M Sohan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smsohan/JQueryPoll/issues"
+  },
+  "homepage": "https://github.com/smsohan/JQueryPoll#readme"
+}
