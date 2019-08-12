@@ -1,6 +1,6 @@
 {
   "name": "jquerypoll",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A poller for calling an AJAX endpoint until a user-defined condition is met",
   "main": "poll.js",
   "scripts": {
