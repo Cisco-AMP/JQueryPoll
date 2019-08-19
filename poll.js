@@ -8,7 +8,7 @@
     url = urlToPoll;
     interval = intervalInMilliseconds;
     terminator = terminatorCallback;
-    intervalId = setInterval(poller, intervalInMilliseconds, url);
+    poller();
     return this;
   };
 
