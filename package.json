@@ -1,7 +1,7 @@
 {
   "name": "jquerypoll",
-  "version": "1.0.5",
-  "description": "A poller for calling an AJAX endpoint until a user-defined condition is met",
+  "version": "1.0.6",
+  "description": "A poller for calling an AJAX endpoint until a user-defined condition is true",
   "main": "poll.js",
   "scripts": {
     "test": "node_modules/karma/bin/karma start --single-run"
