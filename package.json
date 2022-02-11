@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/smsohan/JQueryPoll#readme",
   "devDependencies": {
-    "karma": "4.2.0",
+    "karma": "6.3.14",
     "karma-chrome-launcher": "3.0.0",      
     "karma-jasmine": "2.0.1"
   }
